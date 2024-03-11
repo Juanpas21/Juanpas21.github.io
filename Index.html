@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Juan Pablo Luque </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="IndexIngles.html" onclick="seleccionar()">IDIOMA</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img" style="margin-top: 69px;">
+                <img src="IMG_E8158.JPG" alt="">
+            </div>
+            <h1>Juan Pablo Luque Sanchez </h1>
+            <h2>Desarrollador Web</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/juanpablo.luque.90?locale=es_ES"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://github.com/Juanpas21"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/juanpals21/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/juan-pablo-luque-sanchez-b27564193/"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Juan Pablo Luque .</span> Mi nombre es Juan Pablo con 27 años, poseo una sólida experiencia
+                laboral en diferentes modalidades y un fuerte deseo de aprender y enfrentar nuevos retos.
+                Mi enfoque colaborativo se refleja en mi gusto por trabajar en equipo y mi disposición para brindar ayuda.
+                Aunque cuento con algunos conocimientos en programación, mi principal fortaleza radica en mi actitud 
+                proactiva y la disposición para aprender constantemente.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                      
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +34 609246606
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            juanpa.luquesanchez@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Villaviciosa De Odon,Madrid
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>PROGRAMADOR</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        
+                        <div class="interes">
+                            <i class="fas fa-dumbbell"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        
+                       
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <button >
+                <i class="fa-solid fa-download"><a href="CV.pdf"download>DESCARGAR CV</a></i>
+                 <span class="overlay"></span>
+            </button>
+        </div>
+    </div>
+</div>
+    </section>
+    
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Base de Datos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>78%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creacion y diseño de sitios Web</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ingles</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestion de proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>78%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Titulo de Bachillerato</h4>
+                        <span class="casa">Colegio Alcala</span>
+                        <span class="fecha">2012-2014</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>TAFAD</h4>
+                        <span class="casa">Universidad Europea</span>
+                        <span class="fecha">2015-2017</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollo de aplicaciones multimedia</h4>
+                        <span class="casa">Ces Juan Pablo II</span>
+                        <span class="fecha">2023-2025</span>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Auxiliar de cocina</h4>
+                        <span class="casa">Telepizza</span>
+                        <span class="fecha">2016</span>
+                        
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Mozo de Almacen</h4>
+                        <span class="casa">Mediclog Sanitaria S.L</span>
+                        <span class="fecha">2017-2019</span>
+                        <p>Como mozo de almacén, mi trabajo implica gestionar y organizar el inventario, recibir y verificar
+                             la mercancía, utilizar equipos como carretillas elevadoras, preparar pedidos con precisión 
+                             y mantener el almacén en condiciones óptimas. Colaboro estrechamente con otros departamentos 
+                             para asegurar una operación fluida y contribuyo a la eficiencia general del proceso.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Auxiliar de cocina</h4>
+                        <span class="casa">TELEPIZZA</span>
+                        <span class="fecha">2021</span>
+                        <p>Como auxiliar de cocina en Telepizza, mi labor consistía en contribuir al funcionamiento
+                             eficiente de la cocina. Preparaba ingredientes,montaba pizzas.Trabajaba en equipo para 
+                             garantizar la calidad de los productos y la satisfacción del cliente. Además, cumplía con 
+                             estándares de higiene y seguridad alimentaria para ofrecer un servicio de excelencia.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                            
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Mozo de Almacén</h4>
+                        <span class="casa">ELECTROSON TELECOMUNICACION</span>
+                        <span class="fecha">2021</span>
+                        <p>Como mozo de almacén en una empresa de fibra óptica, mi principal responsabilidad era gestionar y organizar el inventario de cables de fibra óptica. 
+                            Esto incluía recibir, inspeccionar y almacenar los materiales de manera eficiente. 
+                            Preparación de pedidos, asegurando la correcta identificación y embalaje de los cables 
+                            antes de su envío.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                </div>
+            </div>
+            <div class="item der">
+                <h4>Mozo de Almacen y Ventas</h4>
+                <span class="casa">CORTE INGLES</span>
+                <span class="fecha">2022-2023</span>
+                <p>Como mozo de almacén y vendedor de electrodomésticos en El Corte Inglés, realizaba diversas tareas, incluyendo la recepción, almacenamiento y distribución eficiente de productos. Gestionaba el inventario para garantizar la disponibilidad de artículos. En ventas, asesoraba a clientes sobre electrodomésticos, ofreciendo información detallada sobre características y beneficios.</p>
+                <div class="conectord">
+                    <div class="circulod"></div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="file:///C:/Users/PALOMA/Documents/Casa/starbucks.html/cafeteria.html">
+                    <img src="Starbucks.jpg.png" alt="file:///C:/Users/PALOMA/Documents/Casa/starbucks.html/cafeteria.html">
+                    <div class="overlay">
+                        <h3>Lenguaje de Marcas</h3>
+                        <p>Bingo y ahorcado</p>
+                    </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/Juanpas21/BingoAhorcado/tree/main/AhorcadoBingo">
+                    <img src="Ahorcado.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Programacion</h3>
+                        <p>Ahorcado</p>
+                    </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/Juanpas21/Base-de-Datos/blob/main/Captura%20de%20pantalla%202024-03-07%20171343.png">
+                    <img src="database.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Base de Datos</h3>
+                        <p>Ficheros</p>
+                    </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <a href="file:///C:/Users/PALOMA/Documents/BorradorCasa/Tarjetas%20de%20sonido.pdf">
+                    <img src="TarjetasSonido.jpg.png" alt="">
+                    <div class="overlay">
+                        <h3>Sistemas Informaticos</h3>
+                        <p>Tarjetas de Sonido</p>
+                    </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/Juanpas21/Edproyecto4/tree/main/EdPrueba">
+                    <img src="login.jpg.png" alt="">
+                    <div class="overlay">
+                        <h3>Entorno de Desarrollo</h3>
+                        <p>Menu inicio con JAVA</p>
+                    </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto" style="background-image: url(contact_bg.png);">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <a href="https://www.google.es/maps/@40.356314,-3.8757218,15z?entry=ttu" target="_self">
+                    <img src="mapa.jpg.png" alt="Mapa Ubicacion">
+                    </a>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Villaviciosa De Odon,Madrid
+                            </li>
+                            <li>
+                                <a href="tel:+34 609246606">
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                   +34 609246606
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:juanpa.luquesanchez@gmail.com">
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: juanpa.luquesanchez@gmail.com
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/juanpablo.luque.90?locale=es_ES"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://github.com/Juanpas21"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/juanpals21/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/juan-pablo-luque-sanchez-b27564193/"><i class="fa-brands fa-linkedin-in"></i></a>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
